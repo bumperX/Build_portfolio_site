@@ -1,0 +1,69 @@
+body {
+	font-family: "Lato", sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+.container {
+	padding-top: 4%;
+	max-width: 970px;
+}
+
+.title-logo {
+	margin-top: 3%;
+}
+
+.title-super {
+	font-size: 3.5em;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+hr {
+	color: #7d97ad;
+	background: #7d97ad;
+	border: solid 1.5px;
+}
+
+#main-pic {
+	width: 100%;
+}
+
+#main-works {
+	padding-bottom: 4%;
+}
+
+.text-muted {
+	color: #7d97ad;
+}
+
+a:link {
+	color: #2d3c49;
+}
+
+
+@media screen and (max-width: 991px) {
+	#header-logo {
+		display: inline-block;
+		max-width: 50%;
+		float: left;
+		vertical-align: top;
+	}
+
+	#header-text {
+		display: inline-block;
+		max-width: 50%;
+		float: right;
+	}
+
+	.work-logo {
+		margin-left: 28%;
+		margin-top: 4%;
+	}
+
+	a {
+		font-size: 1.35em;
+	}
+}
