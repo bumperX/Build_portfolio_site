@@ -4,6 +4,10 @@ body {
 	font-weight: 300;
 }
 
+header {
+	border-bottom: 1.5px solid #7d97ad;
+}
+
 .container {
 	padding-top: 4%;
 	max-width: 970px;
@@ -21,13 +25,8 @@ body {
 	font-weight: 100;
 }
 
-hr {
-	color: #7d97ad;
-	background: #7d97ad;
-	border: solid 1.5px;
-}
-
 #main-pic {
+	margin-top: 3%;
 	width: 100%;
 }
 
