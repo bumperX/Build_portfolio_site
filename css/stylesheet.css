@@ -14,7 +14,7 @@ header {
 }
 
 .title-logo {
-	margin-top: 3%;
+	margin-top: 2%;
 }
 
 .title-super {
@@ -44,21 +44,20 @@ a:link {
 
 
 @media screen and (max-width: 991px) {
-	#header-logo {
+	.header-logo {
 		display: inline-block;
 		max-width: 50%;
 		float: left;
 		vertical-align: top;
 	}
 
-	#header-text {
+	.header-text {
 		display: inline-block;
 		max-width: 50%;
 		float: right;
 	}
 
 	.work-logo {
-		margin-left: 28%;
 		margin-top: 4%;
 	}
 
